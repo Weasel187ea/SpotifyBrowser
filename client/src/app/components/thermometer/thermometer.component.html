@@ -1,0 +1,6 @@
+<div *ngIf="audio" class="progress">
+	<!--TODO: set style.background-color based on the audio feature's color and style.width via the audio feature's percent. Display feature name and percent.-->
+  <div class="progress-bar" role="progressbar">
+  	<span [style.background-color]="audio.color" [style.width]="audio.percentageString" class="progress-bar-text">{{audio.name}}: {{audio.percentageString}}</span>
+  </div>
+</div>
