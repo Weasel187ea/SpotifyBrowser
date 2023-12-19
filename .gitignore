@@ -41,5 +41,3 @@ testem.log
 *.DS_Store*
 Thumbs.db
 
-webserver/tokens.json
-webserver/client_secret.json
